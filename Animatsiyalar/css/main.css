@@ -1,0 +1,18 @@
+.wrapper{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(83, 223, 141);
+    border-radius: 5%;
+    margin: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    padding-top: 10px;
+    transform: rotateZ(180deg);
+}
+.wrapper:hover{
+    background-color: rgb(27, 236, 90);
+}
+.wrapper:active{
+    transform: rotateZ(0deg);
+}
